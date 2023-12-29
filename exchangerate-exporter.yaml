@@ -48,7 +48,7 @@ spec:
       serviceAccountName: exchangerate-exporter
       containers:
       - name: exchangerate-exporter
-        image: abeyuki/exchangerate-exporter
+        image: abeyuki/exchangerate-exporter:1.0.1
         imagePullPolicy: Always
         resources:
           limits:
